@@ -1415,11 +1415,11 @@ textarea {
 
 /* line 48, /Users/romainsartorius/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #469AE0;
+  color: #eeeeee;
   text-decoration: none; }
   /* line 52, /Users/romainsartorius/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:hover, a:focus {
-    color: #1f74ba;
+    color: #c8c8c8;
     text-decoration: underline; }
   /* line 58, /Users/romainsartorius/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:focus {
@@ -3780,7 +3780,7 @@ select[multiple].input-lg,
 
 /* line 88, /Users/romainsartorius/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: #469AE0;
+  color: #eeeeee;
   font-weight: normal;
   border-radius: 0; }
   /* line 93, /Users/romainsartorius/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3792,7 +3792,7 @@ select[multiple].input-lg,
     border-color: transparent; }
   /* line 107, /Users/romainsartorius/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
   .btn-link:hover, .btn-link:focus {
-    color: #1f74ba;
+    color: #c8c8c8;
     text-decoration: underline;
     background-color: transparent; }
   /* line 115, /Users/romainsartorius/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
@@ -4371,7 +4371,7 @@ tbody.collapse.in {
   /* line 46, /Users/romainsartorius/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navs.scss */
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #eeeeee;
-    border-color: #469AE0; }
+    border-color: #eeeeee; }
   /* line 59, /Users/romainsartorius/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navs.scss */
   .nav .nav-divider {
     height: 1px;
@@ -5031,7 +5031,7 @@ tbody.collapse.in {
       padding: 6px 12px;
       line-height: 1.4;
       text-decoration: none;
-      color: #469AE0;
+      color: #eeeeee;
       background-color: #fff;
       border: 1px solid #ddd;
       margin-left: -1px; }
@@ -5050,7 +5050,7 @@ tbody.collapse.in {
   .pagination > li > a:hover, .pagination > li > a:focus,
   .pagination > li > span:hover,
   .pagination > li > span:focus {
-    color: #1f74ba;
+    color: #c8c8c8;
     background-color: #eeeeee;
     border-color: #ddd; }
   /* line 51, /Users/romainsartorius/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_pagination.scss */
@@ -5248,7 +5248,7 @@ a.label:hover, a.label:focus {
     padding: 1px 5px; }
   /* line 41, /Users/romainsartorius/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_badges.scss */
   .list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-    color: #469AE0;
+    color: #eeeeee;
     background-color: #fff; }
   /* line 47, /Users/romainsartorius/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_badges.scss */
   .list-group-item > .badge {
@@ -5330,7 +5330,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #469AE0; }
+  border-color: #eeeeee; }
 
 /* line 9, /Users/romainsartorius/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_alerts.scss */
 .alert {
@@ -9128,13 +9128,25 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
+/* line 1, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/layout/_footer.scss */
+.footer {
+  background-color: #333333;
+  color: #eeeeee;
+  font-size: 30px;
+  padding: 15px; }
+  /* line 6, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/layout/_footer.scss */
+  .footer p {
+    font-size: 15px;
+    line-height: 50px;
+    text-align: left; }
+
 /* line 1, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
   background: white; }
   /* line 4, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-logo {
-    width: 50px; }
+    width: 200px; }
   /* line 7, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-container {
     display: flex;
@@ -9182,22 +9194,22 @@ button.close {
     font-size: 14px; }
     /* line 51, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-link:hover {
-      color: #da552f;
+      color: #81C3C2;
       text-decoration: none; }
   /* line 56, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-button {
     padding: 0 20px;
     border-radius: 20em;
     line-height: 40px;
-    background-color: #D23333;
+    background-color: #81C3C2;
     color: white;
     font-size: 14px;
-    border: 2px solid #D23333; }
+    border: 2px solid #81C3C2; }
     /* line 65, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon-button:hover {
       color: white;
-      background: #D23333;
-      border-color: #ac2626; }
+      background: #81C3C2;
+      border-color: #5eb3b1; }
   /* line 71, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon-dropdown-menu {
     margin-top: 15px;
@@ -9306,6 +9318,105 @@ button.close {
   .icon-badge-bordered, .user-badge-bordered {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     border: white 1px solid; }
+
+/* line 1, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/components/_banner.scss */
+.banner {
+  position: relative;
+  z-index: 0;
+  padding: 100px;
+  background-image: url("https://unsplash.it/1000/400?image=0");
+  background-position: center;
+  background-size: cover;
+  color: white; }
+
+/* line 11, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/components/_banner.scss */
+.banner-shadow {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(-225deg, rgba(0, 101, 168, 0.6) 0%, rgba(0, 36, 61, 0.6) 50%); }
+
+/* line 21, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/components/_banner.scss */
+.banner-content {
+  position: relative;
+  z-index: 2; }
+
+/* line 26, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/components/_banner.scss */
+.banner p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8); }
+
+/* line 1, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/components/_card.scss */
+.card {
+  position: relative;
+  padding: 50px;
+  background-size: cover;
+  height: 200px;
+  margin: 20px auto; }
+  /* line 7, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/components/_card.scss */
+  .card-bg {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0; }
+  /* line 16, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/components/_card.scss */
+  .card-description {
+    position: absolute;
+    top: 10px;
+    left: 10px; }
+  /* line 21, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/components/_card.scss */
+  .card-text {
+    text-align: left;
+    position: absolute;
+    bottom: 10px;
+    left: 10px; }
+  /* line 27, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/components/_card.scss */
+  .card-user {
+    top: 10px;
+    right: 10px; }
+  /* line 31, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/components/_card.scss */
+  .card-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: transparent;
+    z-index: 3; }
+
+/* line 42, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/components/_card.scss */
+.card-description,
+.card-text,
+.card-user {
+  position: absolute;
+  z-index: 1;
+  color: white; }
+
+/* line 2, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/components/_feature.scss */
+.feature img {
+  height: 23px; }
+/* line 5, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/components/_feature.scss */
+.feature h2 {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: bold;
+  color: #666666; }
+/* line 11, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/components/_feature.scss */
+.feature p {
+  font-size: 15px;
+  line-height: 19px;
+  color: #B3B3B3; }
+
+/* line 1, /Users/romainsartorius/code/RomSarto/demo-middleman/source/stylesheets/pages/_home.scss */
+hr {
+  border-top: 1px solid;
+  color: #B3B3B3; }
 
 /*
 ==============================================
