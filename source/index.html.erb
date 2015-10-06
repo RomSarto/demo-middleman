@@ -15,45 +15,17 @@ title: Le Wagon Middleman boilerplate
   <div class="padded">
     <div class="row">
 
-      <div class="col-xs-12 col-md-3">
-        <div class="feature">
-          <h2>
-            <%= image_tag "chat.png" %>
-            Discuss best tools
-          </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni.</p>
+      <% data.features.each do |feature| %>
+        <div class="col-xs-12 col-md-3">
+          <div class="feature">
+            <h2>
+              <%= image_tag feature.image %>
+              <%= feature.title %>
+            </h2>
+            <p><%= feature.description %></p>
+          </div>
         </div>
-      </div>
-
-      <div class="col-xs-12 col-md-3">
-        <div class="feature">
-          <h2>
-            <%= image_tag "mobile.png" %>
-            Always in sync
-          </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni.</p>
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-md-3">
-        <div class="feature">
-          <h2>
-            <%= image_tag "search.png" %>
-            Powerful search
-          </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni.</p>
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-md-3">
-        <div class="feature">
-          <h2>
-            <%= image_tag "heart.png" %>
-            Share the love
-          </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni.</p>
-        </div>
-      </div>
+      <% end %>
 
     </div>
   </div>
@@ -71,7 +43,7 @@ title: Le Wagon Middleman boilerplate
 
     <div class="row">
       <div class="col-xs-12 col-md-4">
-        <div class="card" style="background-image: url('https://unsplash.it/1000/400?image=1');">
+        <div class="card" style="background-image: url('https://unsplash.it/1000/400?image=1');" data-sr>
           <div class="card-shadow">
             <div class="card-link">
               <a href="http://www.google.com"></a>

@@ -1,5 +1,5 @@
-<nav class="navbar-wagon">
-  <div class="container navbar-wagon-container">
+<nav class="navbar-wagon navbar-wagon-fixed js-navbar">
+  <div class="container-fluid navbar-wagon-container">
 
     <% link_to "/" do %>
       <%= image_tag "serena.png", class: "navbar-wagon-logo" %>
@@ -16,7 +16,9 @@
       <%= link_to "Post stuff", "", class: "navbar-wagon-button btn btn-default" %>
     </div>
 
-    <%= link_to "Contact", "/contact.html", class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Team", "/contact.html", class: "navbar-wagon-item navbar-wagon-link" %>
+
+    <%= link_to "Find us", "#map", class: "navbar-wagon-item navbar-wagon-link" %>
 
     <% link_to "", class: "navbar-wagon-item navbar-wagon-link" do %>
        <div class="icon-badge-container">
