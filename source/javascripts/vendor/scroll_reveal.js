@@ -1,3 +1,4 @@
 
-
-window.sr = new scrollReveal();
+$(document).ready(function() {
+  window.sr = new scrollReveal();
+});
