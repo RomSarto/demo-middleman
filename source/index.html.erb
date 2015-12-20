@@ -28,6 +28,19 @@ title: Le Wagon Middleman boilerplate
       <% end %>
 
     </div>
+        <div class="row">
+
+      <% data.companies.each do |company| %>
+        <div class="col-xs-12 col-md-3">
+          <div class="feature">
+            <h2>
+              <%= company[:name] %>
+            </h2>
+          </div>
+        </div>
+      <% end %>
+
+    </div>
   </div>
 </div>
 
